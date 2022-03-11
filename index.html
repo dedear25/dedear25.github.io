@@ -1,275 +1,232 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio | Dede Abdul Rahman</title>
 
     <!-- font awesome cdn link  -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
 
     <!-- custom css file link  -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- header section starts  -->
 
-</head>
-<body>
-    
-<!-- header section starts  -->
-
-<header>
-
-    <div class="user">
-        <img src="img/dede.png" alt="">
+    <header>
+      <div class="user">
+        <img src="img/dede.png" alt="" />
         <h3 class="name">Dede AR</h3>
         <p class="post">Mahasiswa</p>
-    </div>
+      </div>
 
-    <nav class="navbar">
+      <nav class="navbar">
         <ul>
-            <li><a href="#home">home</a></li>
-            <li><a href="#about">tentang</a></li>
-            <li><a href="#education">pendidikan</a></li>
-            <li><a href="#organisasi">organisasi</a></li>
-            <li><a href="#contact">kontak</a></li>
+          <li><a href="#home">home</a></li>
+          <li><a href="#about">tentang</a></li>
+          <li><a href="#education">pendidikan</a></li>
+          <li><a href="#organisasi">organisasi</a></li>
+          <li><a href="#contact">kontak</a></li>
         </ul>
-    </nav>
+      </nav>
+    </header>
 
-</header>
+    <!-- header section ends -->
 
-<!-- header section ends -->
+    <div id="menu" class="fas fa-bars"></div>
 
-<div id="menu" class="fas fa-bars"></div>
+    <!-- home section starts  -->
 
-<!-- home section starts  -->
-
-<section class="home" id="home">
-
-    <h3>Hai Semua !</h3>
-    <h1>Saya <span>Dede Abdul Rahman</span></h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio deserunt aspernatur fugiat minus enim ullam repudiandae sint sed magnam tenetur! Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, at.
-    </p>
-    <a href="#about"><button class="btn">tentang saya <i class="fas fa-user"></i></button></a>
-
-</section>
-
-<!-- home section ends -->
-
-<!-- about section starts  -->
-
-<section class="about" id="about">
-
-<h1 class="heading"> <span>tentang</span> saya </h1>
-
-<div class="row">
-
-    <div class="info">
-        <h3> <span> name : </span> Dede Abdul Rahman </h3>
-        <h3> <span> lahir : </span> Sukabumi, 25 Juni 1998 </h3>
-        <h3> <span> status : </span> Mahasiswa </h3>
-        <h3> <span> jurusan : </span> Pendidikan Teknik Elektro </h3>
-        <h3> <span> kampus : </span> Universitas Pendidikan Indonesia </h3>
-        <a href="#"><button class="btn"> download CV <i class="fas fa-download"></i> </button></a>
-    </div>
-
-    <div class="counter">
-
-        <div class="box">
-            <span>++</span>
-            <h3>Lorem ipsum dolor sit amet.</h3>
-        </div>
-
-        <div class="box">
-            <span>++</span>
-            <h3>Lorem ipsum dolor sit amet.</h3>
-        </div>
-
-        <div class="box">
-            <span>++</span>
-            <h3>Lorem ipsum dolor sit amet.</h3>
-        </div>
-
-        <div class="box">
-            <span>++</span>
-            <h3>Lorem ipsum dolor sit amet.</h3>
-        </div>
-
-    </div>
-
-</div>
-
-</section>
-
-<!-- about section ends -->
-
-<!-- education section starts  -->
-
-<section class="education" id="education">
-
-<h1 class="heading"> riwayat <span>pendidikan</span> </h1>
-
-<div class="box-container">
-
-    <div class="box">
-        <i class="fas fa-graduation-cap"></i>
-        <span>2005</span>
-        <h3>SDN Marinjung</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati quos alias praesentium. Id autem provident laborum quae, distinctio eaque temporibus!</p>
-    </div>
-
-    <div class="box">
-        <i class="fas fa-graduation-cap"></i>
-        <span>2011</span>
-        <h3>SMPN 1 Cisolok</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati quos alias praesentium. Id autem provident laborum quae, distinctio eaque temporibus!</p>
-    </div>
-
-    <div class="box">
-        <i class="fas fa-graduation-cap"></i>
-        <span>2014</span>
-        <h3>SMAN 1 Cikakak</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati quos alias praesentium. Id autem provident laborum quae, distinctio eaque temporibus!</p>
-    </div>
-
-    <div class="box">
-        <i class="fas fa-graduation-cap"></i>
-        <span>2017</span>
-        <h3>Universitas Pendidikan Indonesia</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati quos alias praesentium. Id autem provident laborum quae, distinctio eaque temporibus!</p>
-    </div>
-
-</div>
-
-</section>
-
-<!-- education section ends -->
-
-<!-- organisasi section starts  -->
-
-<section class="organisasi" id="organisasi">
-
-    <h1 class="heading"> riwayat <span>organisasi</span> </h1>
-    
-    <div class="box-container">
-    
-        <div class="box">
-            <i class="fas fa-graduation-cap"></i>
-            <span>2016</span>
-            <h3>Ketua Remaja Masjid Jami Unwanulfalah Kp. Marinjung</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati quos alias praesentium. Id autem provident laborum quae, distinctio eaque temporibus!</p>
-        </div>
-    
-        <div class="box">
-            <i class="fas fa-graduation-cap"></i>
-            <span>2016</span>
-            <h3>Ketua Komunitas Pecinta Lingkar Sains (Katalis) SMAN 1 Cikakak</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati quos alias praesentium. Id autem provident laborum quae, distinctio eaque temporibus!</p>
-        </div>
-    
-        <div class="box">
-            <i class="fas fa-graduation-cap"></i>
-            <span>2016</span>
-            <h3>Ketua Ekskul Badminton SMAN 1 Cikakak</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati quos alias praesentium. Id autem provident laborum quae, distinctio eaque temporibus!</p>
-        </div>
-    
-        <div class="box">
-            <i class="fas fa-graduation-cap"></i>
-            <span>2017</span>
-            <h3>Ketua Rohis SMAN 1 Cikakak</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati quos alias praesentium. Id autem provident laborum quae, distinctio eaque temporibus!</p>
-        </div>
-    
-        <div class="box">
-            <i class="fas fa-graduation-cap"></i>
-            <span>2019</span>
-            <h3>Ketua Departemen Tes Baca Al-Qur'an UKM BAQI UPI</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati quos alias praesentium. Id autem provident laborum quae, distinctio eaque temporibus!</p>
-        </div>
-    
-        <div class="box">
-            <i class="fas fa-graduation-cap"></i>
-            <span>2020</span>
-            <h3>Ketua Umum UKM BAQI UPI</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati quos alias praesentium. Id autem provident laborum quae, distinctio eaque temporibus!</p>
-        </div>
-
-        <div class="box">
-            <i class="fas fa-graduation-cap"></i>
-            <span>2020</span>
-            <h3>Ketua Umum Asosiasi Lembaga Al-Qur'an Mahasiswa Indonesia (ALQUMI)</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati quos alias praesentium. Id autem provident laborum quae, distinctio eaque temporibus!</p>
-        </div>
-    
-    </div>
-    
+    <section class="home" id="home">
+      <h3>Hai Semua !</h3>
+      <h1>Saya <span>Dede Abdul Rahman</span></h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio deserunt aspernatur fugiat minus enim ullam repudiandae sint sed magnam tenetur! Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, at.</p>
+      <a href="#about"
+        ><button class="btn">tentang saya <i class="fas fa-user"></i></button
+      ></a>
     </section>
-    
+
+    <!-- home section ends -->
+
+    <!-- about section starts  -->
+
+    <section class="about" id="about">
+      <h1 class="heading"><span>tentang</span> saya</h1>
+
+      <div class="row">
+        <div class="info">
+          <h3><span> name : </span> Dede Abdul Rahman</h3>
+          <h3><span> lahir : </span> Sukabumi, 25 Juni 1998</h3>
+          <h3><span> status : </span> Mahasiswa</h3>
+          <h3><span> jurusan : </span> Pendidikan Teknik Elektro</h3>
+          <h3><span> kampus : </span> Universitas Pendidikan Indonesia</h3>
+          <a href="#"
+            ><button class="btn">download CV <i class="fas fa-download"></i></button
+          ></a>
+        </div>
+
+        <div class="counter">
+          <div class="box">
+            <span>++</span>
+            <h3>Lorem ipsum dolor sit amet.</h3>
+          </div>
+
+          <div class="box">
+            <span>++</span>
+            <h3>Lorem ipsum dolor sit amet.</h3>
+          </div>
+
+          <div class="box">
+            <span>++</span>
+            <h3>Lorem ipsum dolor sit amet.</h3>
+          </div>
+
+          <div class="box">
+            <span>++</span>
+            <h3>Lorem ipsum dolor sit amet.</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- about section ends -->
+
+    <!-- education section starts  -->
+
+    <section class="education" id="education">
+      <h1 class="heading">riwayat <span>pendidikan</span></h1>
+
+      <div class="box-container">
+        <div class="box">
+          <i class="fas fa-graduation-cap"></i>
+          <span>2005</span>
+          <h3>SDN Marinjung</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati quos alias praesentium. Id autem provident laborum quae, distinctio eaque temporibus!</p>
+        </div>
+
+        <div class="box">
+          <i class="fas fa-graduation-cap"></i>
+          <span>2011</span>
+          <h3>SMPN 1 Cisolok</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati quos alias praesentium. Id autem provident laborum quae, distinctio eaque temporibus!</p>
+        </div>
+
+        <div class="box">
+          <i class="fas fa-graduation-cap"></i>
+          <span>2014</span>
+          <h3>SMAN 1 Cikakak</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati quos alias praesentium. Id autem provident laborum quae, distinctio eaque temporibus!</p>
+        </div>
+
+        <div class="box">
+          <i class="fas fa-graduation-cap"></i>
+          <span>2017</span>
+          <h3>Universitas Pendidikan Indonesia</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati quos alias praesentium. Id autem provident laborum quae, distinctio eaque temporibus!</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- education section ends -->
+
+    <!-- organisasi section starts  -->
+
+    <section class="organisasi" id="organisasi">
+      <h1 class="heading">riwayat <span>organisasi</span></h1>
+
+      <div class="box-container">
+        <div class="box">
+          <i class="fas fa-graduation-cap"></i>
+          <span>2016</span>
+          <h3>Ketua Remaja Masjid Jami Unwanulfalah Kp. Marinjung</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati quos alias praesentium. Id autem provident laborum quae, distinctio eaque temporibus!</p>
+        </div>
+
+        <div class="box">
+          <i class="fas fa-graduation-cap"></i>
+          <span>2016</span>
+          <h3>Ketua Komunitas Pecinta Lingkar Sains (Katalis) SMAN 1 Cikakak</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati quos alias praesentium. Id autem provident laborum quae, distinctio eaque temporibus!</p>
+        </div>
+
+        <div class="box">
+          <i class="fas fa-graduation-cap"></i>
+          <span>2016</span>
+          <h3>Ketua Ekskul Badminton SMAN 1 Cikakak</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati quos alias praesentium. Id autem provident laborum quae, distinctio eaque temporibus!</p>
+        </div>
+
+        <div class="box">
+          <i class="fas fa-graduation-cap"></i>
+          <span>2017</span>
+          <h3>Ketua Rohis SMAN 1 Cikakak</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati quos alias praesentium. Id autem provident laborum quae, distinctio eaque temporibus!</p>
+        </div>
+
+        <div class="box">
+          <i class="fas fa-graduation-cap"></i>
+          <span>2019</span>
+          <h3>Ketua Departemen Tes Baca Al-Qur'an UKM BAQI UPI</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati quos alias praesentium. Id autem provident laborum quae, distinctio eaque temporibus!</p>
+        </div>
+
+        <div class="box">
+          <i class="fas fa-graduation-cap"></i>
+          <span>2020</span>
+          <h3>Ketua Umum UKM BAQI UPI</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati quos alias praesentium. Id autem provident laborum quae, distinctio eaque temporibus!</p>
+        </div>
+
+        <div class="box">
+          <i class="fas fa-graduation-cap"></i>
+          <span>2020</span>
+          <h3>Ketua Umum Asosiasi Lembaga Al-Qur'an Mahasiswa Indonesia (ALQUMI)</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati quos alias praesentium. Id autem provident laborum quae, distinctio eaque temporibus!</p>
+        </div>
+      </div>
+    </section>
+
     <!-- organisasi section ends -->
 
+    <!-- contact section starts  -->
 
-<!-- contact section starts  -->
+    <section class="contact" id="contact">
+      <h1 class="heading"><span>kontak</span> saya</h1>
 
-<section class="contact" id="contact">
+      <div class="row">
+        <div class="content">
+          <h3 class="title">informasi</h3>
 
-<h1 class="heading"> <span>kontak</span> saya </h1>
-
-<div class="row">
-
-    <div class="content">
-
-        <h3 class="title">informasi</h3>
-
-        <div class="info">
-            <h3> <i class="fas fa-envelope"></i> dedear25@upi.edu </h3>
-            <h3> <i class="fas fa-phone"></i> +6288 8621 2563 </h3>
-            <h3> <i class="fas fa-map-marker-alt"></i> Bandung, Indonesia - 40154 </h3>
+          <div class="info">
+            <h3><i class="fas fa-envelope"></i> dedear25@upi.edu</h3>
+            <h3><i class="fas fa-phone"></i> +6288 8621 2563</h3>
+            <h3><i class="fas fa-map-marker-alt"></i> Bandung, Indonesia - 40154</h3>
+          </div>
         </div>
 
-    </div>
+        <form action="">
+          <input type="text" placeholder="nama" class="box" />
+          <input type="email" placeholder="email" class="box" />
+          <input type="text" placeholder="subjek" class="box" />
+          <textarea name="" id="" cols="30" rows="10" class="box message" placeholder="pesan"></textarea>
+          <button type="submit" class="btn">kirim <i class="fas fa-paper-plane"></i></button>
+        </form>
+      </div>
+    </section>
 
-    <form action="">
+    <!-- contact section ends -->
 
-        <input type="text" placeholder="nama" class="box">
-        <input type="email" placeholder="email" class="box">
-        <input type="text" placeholder="subjek" class="box">
-        <textarea name="" id="" cols="30" rows="10" class="box message" placeholder="pesan"></textarea>
-        <button type="submit" class="btn"> kirim <i class="fas fa-paper-plane"></i> </button>
+    <!-- scroll top button  -->
 
-    </form>
+    <a href="#home" class="top">
+      <img src="img/scroll.png" alt="" />
+    </a>
 
-</div>
+    <!-- jquery cdn link  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
-</section>
-
-<!-- contact section ends -->
-
-
-<!-- scroll top button  -->
-
-<a href="#home" class="top">
-    <img src="img/scroll.png" alt="">
-</a>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!-- jquery cdn link  -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-
-<!-- custom js file link  -->
-<script src="script.js"></script>
-
-
-</body>
+    <!-- custom js file link  -->
+    <script src="script.js"></script>
+  </body>
 </html>
