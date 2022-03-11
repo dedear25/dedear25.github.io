@@ -8,6 +8,9 @@
     <!-- font awesome cdn link  -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
 
+    <!-- css alert sweet -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@7.12.15/dist/sweetalert2.min.css" />
+
     <!-- custom css file link  -->
     <link rel="stylesheet" href="style.css" />
   </head>
@@ -205,11 +208,11 @@
           </div>
         </div>
 
-        <form action="">
-          <input type="text" placeholder="nama" class="box" />
-          <input type="email" placeholder="email" class="box" />
-          <input type="text" placeholder="subjek" class="box" />
-          <textarea name="" id="" cols="30" rows="10" class="box message" placeholder="pesan"></textarea>
+        <form action="" name="DAR-contact-form">
+          <input name="nama" type="text" placeholder="nama" class="box" />
+          <input name="email" type="email" placeholder="email" class="box" />
+          <input name="subjek" type="text" placeholder="subjek" class="box" />
+          <textarea name="pesan" id="" cols="30" rows="10" class="box message" placeholder="pesan"></textarea>
           <button type="submit" class="btn">kirim <i class="fas fa-paper-plane"></i></button>
         </form>
       </div>
@@ -225,6 +228,29 @@
 
     <!-- jquery cdn link  -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <!-- alert sweet -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@7.12.15/dist/sweetalert2.all.min.js"></script>
+
+    <script>
+      const scriptURL = 'https://script.google.com/macros/s/AKfycbxI53L8N8LgNNljlbNkBIG1skJ6LRvl48iEqVHobaG4ymeE0KSySc8FX7uGl1ghtyzM/exec';
+      const form = document.forms['DAR-contact-form'];
+
+      const btnKlik = document.querySelector('.btn');
+
+      form.addEventListener('submit', (e) => {
+        e.preventDefault();
+        fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+          .then((response) => {
+            // tampilkan alert
+            swal('Berhasil!', 'Pesan Anda Sudah Terkirim', 'success');
+            // reset form
+            form.reset();
+            console.log('Success!', response);
+          })
+          .catch((error) => console.error('Error!', error.message));
+      });
+    </script>
 
     <!-- custom js file link  -->
     <script src="script.js"></script>
