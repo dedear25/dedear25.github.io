@@ -178,7 +178,7 @@ header .navbar ul li a:hover {
   padding: 1rem 0;
 }
 
-.about .row {
+.tentang .row {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -186,32 +186,32 @@ header .navbar ul li a:hover {
   padding: 1rem 0;
 }
 
-.about .row .info {
+.tentang .row .info {
   flex: 1 1 48rem;
   padding: 2rem 1rem;
   padding-left: 6rem;
 }
 
-.about .row .info h3 {
+.tentang .row .info h3 {
   font-size: 2rem;
   color: var(--yellow);
   padding: 1rem 0;
   font-weight: normal;
 }
 
-.about .row .info h3 span {
+.tentang .row .info h3 span {
   color: #eee;
   padding: 0 0.5rem;
 }
 
-.about .row .counter {
+.tentang .row .counter {
   flex: 1 1 48rem;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
 }
 
-.about .row .counter .box {
+.tentang .row .counter .box {
   width: 20rem;
   background: #222;
   text-align: center;
@@ -219,17 +219,17 @@ header .navbar ul li a:hover {
   margin: 2rem;
 }
 
-.about .row .counter .box span {
+.tentang .row .counter .box span {
   font-size: 4rem;
   color: var(--yellow);
 }
 
-.about .row .counter .box h3 {
+.tentang .row .counter .box h3 {
   font-size: 2rem;
   color: #fff;
 }
 
-.education .box-container {
+.pendidikan .box-container {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -238,7 +238,7 @@ header .navbar ul li a:hover {
   padding-left: 3rem;
 }
 
-.education .box-container .box {
+.pendidikan .box-container .box {
   width: 27rem;
   margin: 4rem 1rem;
   padding-left: 4rem;
@@ -246,7 +246,7 @@ header .navbar ul li a:hover {
   position: relative;
 }
 
-.education .box-container .box span {
+.pendidikan .box-container .box span {
   font-size: 1.3rem;
   background: #222;
   color: #fff;
@@ -254,19 +254,19 @@ header .navbar ul li a:hover {
   padding: 0.5rem 2.5rem;
 }
 
-.education .box-container .box h3 {
+.pendidikan .box-container .box h3 {
   font-size: 2rem;
   color: #fff;
   padding-top: 1.5rem;
 }
 
-.education .box-container .box p {
+.pendidikan .box-container .box p {
   font-size: 1.4rem;
   color: #eee;
   padding: 1rem 0;
 }
 
-.education .box-container .box i {
+.pendidikan .box-container .box i {
   position: absolute;
   top: -1.5rem;
   left: -2.5rem;
@@ -358,27 +358,27 @@ header .navbar ul li a:hover {
     transform: scale(1.2);
 } */
 
-.contact .row {
+.kontak .row {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
 }
 
-.contact .row .content {
+.kontak .row .content {
   flex: 1 1 30rem;
   padding: 4rem;
   padding-bottom: 0;
 }
 
-.contact .row form {
+.kontak .row form {
   flex: 1 1 45rem;
   padding: 2rem;
   margin: 2rem;
   margin-bottom: 4rem;
 }
 
-.contact .row form .box {
+.kontak .row form .box {
   padding: 1.5rem;
   margin: 1rem 0;
   background: #3333;
@@ -388,23 +388,23 @@ header .navbar ul li a:hover {
   width: 100%;
 }
 
-.contact .row form .box::placeholder {
+.kontak .row form .box::placeholder {
   text-transform: capitalize;
 }
 
-.contact .row form .message {
+.kontak .row form .message {
   height: 15rem;
   resize: none;
 }
 
-.contact .row .content .title {
+.kontak .row .content .title {
   text-transform: uppercase;
   color: #fff;
   font-size: 3rem;
   padding-bottom: 2rem;
 }
 
-.contact .row .content .info h3 {
+.kontak .row .content .info h3 {
   display: flex;
   align-items: center;
   font-size: 2rem;
@@ -413,7 +413,7 @@ header .navbar ul li a:hover {
   font-weight: normal;
 }
 
-.contact .row .content .info h3 i {
+.kontak .row .content .info h3 i {
   padding-right: 1rem;
   color: var(--yellow);
 }
@@ -471,11 +471,11 @@ header .navbar ul li a:hover {
     margin: 0 3rem;
   }
 
-  .about .row .counter .box {
+  .tentang .row .counter .box {
     width: 100%;
   }
 
-  .education .box-container .box {
+  .pendidikan .box-container .box {
     width: 100%;
   }
 
@@ -487,7 +487,7 @@ header .navbar ul li a:hover {
         width:100%;
     } */
 
-  .contact .row form {
+  .kontak .row form {
     margin: 3rem 0;
   }
 }
