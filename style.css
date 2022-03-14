@@ -406,6 +406,7 @@ header .navbar ul li a:hover {
 
 .kontak .row .content .info h3 {
   display: flex;
+  text-transform: lowercase;
   align-items: center;
   font-size: 2rem;
   color: #eee;
