@@ -231,7 +231,7 @@ header .navbar ul li a:hover {
 
 .pendidikan .box-container {
   display: flex;
-  align-items: center;
+  /* align-items: center; */
   justify-content: space-between;
   flex-wrap: wrap;
   padding: 1rem 0;
@@ -242,7 +242,7 @@ header .navbar ul li a:hover {
   width: 27rem;
   margin: 4rem 1rem;
   padding-left: 4rem;
-  border-left: 0.2rem solid #fff;
+  /* border-left: 0.2rem solid #fff; */
   position: relative;
 }
 
@@ -264,6 +264,7 @@ header .navbar ul li a:hover {
   font-size: 1.4rem;
   color: #eee;
   padding: 1rem 0;
+  /* text-align: justify; */
 }
 
 .pendidikan .box-container .box i {
@@ -282,7 +283,7 @@ header .navbar ul li a:hover {
 
 .organisasi .box-container {
   display: flex;
-  align-items: center;
+  /* align-items: center; */
   justify-content: space-between;
   flex-wrap: wrap;
   padding: 1rem 0;
@@ -293,7 +294,7 @@ header .navbar ul li a:hover {
   width: 27rem;
   margin: 4rem 1rem;
   padding-left: 4rem;
-  border-left: 0.2rem solid #fff;
+  /* border-left: 0.2rem solid #fff; */
   position: relative;
 }
 
